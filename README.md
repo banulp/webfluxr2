@@ -19,17 +19,26 @@ These additional references should also help you:
 
 * [R2DBC Homepage](https://r2dbc.io)
 
-http://localhost:8080/banulp.lv/getBooks
+* http://localhost:8080/banulp.lv/getBooks
 
+### create db
 CREATE DATABASE IF NOT EXISTS `bookshelter`;
 
+### create table
 USE `bookshelter`;
+
 CREATE TABLE IF NOT EXISTS `changbi` (
+
   `id` bigint NOT NULL AUTO_INCREMENT,
+  
   `title` varchar(50) DEFAULT NULL,
+  
   `author` varchar(50) DEFAULT NULL,
+  
   `star` int DEFAULT NULL,
+  
   PRIMARY KEY (`id`)
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
