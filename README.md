@@ -40,6 +40,3 @@ CREATE TABLE IF NOT EXISTS `changbi` (
   PRIMARY KEY (`id`)
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
-
